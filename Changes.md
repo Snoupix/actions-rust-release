@@ -1,4 +1,4 @@
-## 0.0.2
+## 0.0.2 - 2024-10-27
 
 - Fixed a bug where the executable in the generated tarball or zip file did not have executable
   permissions set.
