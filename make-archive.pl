@@ -82,6 +82,7 @@ sub main {
     }
 
     chdir $td;
+    chmod 0755, $executable_name;
 
     my @cmd
         = $ENV{RUNNER_OS} eq 'Windows'

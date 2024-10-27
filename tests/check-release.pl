@@ -83,6 +83,8 @@ sub main {
         ok( -f $file, "$file exists after unpacking archive" );
     }
 
+    ok( -x $executable_name, "$executable_name binary is executable" );
+
     done_testing();
 }
 
