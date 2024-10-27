@@ -1,4 +1,4 @@
-name: "Release Rust project binaries as GitHub releases"
+name: "Release Rust Project Binaries as GitHub Releases"
 author: "Dave Rolsky <autarch@urth.org>"
 branding:
   icon: home
