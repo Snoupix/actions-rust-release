@@ -117,6 +117,14 @@ explicitly if you want them to be included.
 The name of the file that contains the changelog for this project. This will be used to generate a
 description for the GitHub Release.
 
+### `working-directory`
+
+- **Required**: no
+- **Default**: `"."`
+
+The current working directory in which the Rust project is. It defaults to "." so the
+current working directory.
+
 ## Outputs
 
 This action provides two outputs.
